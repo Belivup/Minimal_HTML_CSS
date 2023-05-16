@@ -11,46 +11,39 @@
     /* --- 1 rem to 16 px by default but we changed 1rem to 1 px  ---*/
     font-size: 1px;
 
+    --primaryColor: #000000;
+    --secondColor: #ffffff;
+    
     --ColorOne: #2a1f57;
     --ColorTwo: #2a1f57;
     --ColorThree: #2a1f57;
     --ColorFour: #2a1f57;
 
-    --marginBig: 50rem;
-    --marginSmall: 25rem;
-
-    --regularFont: normal;
-    --mediumFont: 500;
-    --semiBoldFont: 600;
-    --boldFont: 800;
-    
     --primaryFont: -apple-system, Poppins, sans-serif;
     --secondaryFont: Poppins, sans-serif;
 
 }
 
-a:link, a:visited, a:active{
-    text-decoration: none;
-    color: blue;
-    transition: all 0.2s
-}
-
-
  /* --- Write Your Own Button Style Here --- */
 
-.btn:link{
-    background-color: var(--ColorOne);
+.btn{
     color: white;
+    background-color: var(--primaryColor);
     padding: 15rem 30rem;
-    border-radius: 5rem;
+    border-radius: 10rem;
     display: inline-block;
+    border: 2px solid var(--primaryColor);
+    text-decoration: none;
+    transition: all 0.2s
+
 }
 
 .btn:hover{
-    background-color: var(--ColorTwo);
+    background-color: var(--secondColor);
     color: white;
     padding: 15rem 30rem;
-    border-radius: 5rem;
+    border-radius: 10rem;
+    border: 2px solid var(--secondColor);
 }
 
 
