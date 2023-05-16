@@ -41,13 +41,16 @@ a:link, a:visited, a:active{
 .btn:link{
     background-color: var(--ColorOne);
     color: white;
-    padding: 10rem 30rem;
+    padding: 15rem 30rem;
+    border-radius: 5rem;
+    display: inline-block;
 }
 
 .btn:hover{
     background-color: var(--ColorTwo);
     color: white;
-    padding: 10rem 30rem;
+    padding: 15rem 30rem;
+    border-radius: 5rem;
 }
 
 
