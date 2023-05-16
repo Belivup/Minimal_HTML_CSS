@@ -7,8 +7,22 @@
 }
 
 :root{
-    font-family: -apple-system, Poppins, sans-serif;
-    font-size: 6.25%
+
+    /* --- 1 rem to 16 px by default but we changed 1rem to 1 px  ---*/
+    font-size: 1px;
+
+    --primaryColor: #2a1f57;
+    --secondColor: #352f5b;
+    --altColor: #564c96;
+
+    --linkColor: blue;
+    --linkHoverColor: #b7ff4d;
+
+    --primaryFont: -apple-system, Poppins, sans-serif;
+    --secondFont: -apple-system, Poppins, sans-serif;
+    --altFont: -apple-system, Poppins, sans-serif;
+
+
 }
 
 a:link, a:visited, a:active{
@@ -30,5 +44,6 @@ img { width: 100%; }
 
 body{
     font-size: 15rem;
+    font-family: var(--primaryFont);
 }
 
