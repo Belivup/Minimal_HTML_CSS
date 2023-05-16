@@ -35,6 +35,22 @@ a:link, a:visited, a:active{
     transition: all 0.2s
 }
 
+
+ /* --- Write Your Own Button Style Here --- */
+
+.btn:link{
+    background-color: var(--ColorOne);
+    color: white;
+    padding: 10rem 30rem;
+}
+
+.btn:hover{
+    background-color: var(--ColorTwo);
+    color: white;
+    padding: 10rem 30rem;
+}
+
+
 h1 { font-size: 50rem; }
 h2 { font-size: 40rem; }
 h3 { font-size: 30rem; }
