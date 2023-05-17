@@ -24,6 +24,18 @@
 
 }
 
+h1 { font-size: 50rem; }
+h2 { font-size: 40rem; }
+h3 { font-size: 30rem; }
+h4 { font-size: 25rem; }
+h5 { font-size: 20rem; }
+h6 { font-size: 15rem; }
+
+li { list-style-type: none; }
+
+img { width: 100%; }
+
+
  /* --- Write Your Own Button Style Here --- */
 
 .btn{
@@ -35,7 +47,6 @@
     border: 2px solid var(--primaryColor);
     text-decoration: none;
     transition: all 0.2s
-
 }
 
 .btn:hover{
@@ -46,17 +57,11 @@
     border: 2px solid var(--secondColor);
 }
 
-
-h1 { font-size: 50rem; }
-h2 { font-size: 40rem; }
-h3 { font-size: 30rem; }
-h4 { font-size: 25rem; }
-h5 { font-size: 20rem; }
-h6 { font-size: 15rem; }
-
-li { list-style-type: none; }
-
-img { width: 100%; }
+.container{
+    max-width: 1400rem;
+    margin: 0 auto;
+    padding: 0 50rem;
+}
 
 body{
     font-size: 15rem;
